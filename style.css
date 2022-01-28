@@ -8,30 +8,52 @@ body {
     background-color: bisque;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 header {
     flex:1 1 50px ;
     border: solid 2px black;
+    display: flex;
+    justify-content: space-around;
 }
 
+header h1 {
+    color: gray;
+}
+
+header p {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .s1 {
     flex:1 1 100px ;
-    border: solid 2px black;
+    padding: 50px 100px 50px 100px;
 }
 
 .s2 {
     flex:1 1 100px ;
-    border: solid 2px black;
+    background-color: white;
+    padding: 50px 100px 50px 100px;
 }
 
 .s3 {
     flex:1 1 100px;
-    border: solid 2px black;
+    background-color: blue;
+    padding: 50px 100px 50px 100px;
 }
 
 .s4 {
     flex:1 1 100px;
-    border: solid 2px black;
+    background-color: white;
+    padding: 50px 100px 50px 100px;
 }
